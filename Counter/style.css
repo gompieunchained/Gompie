@@ -1,0 +1,52 @@
+body {
+  background-image: url('background.jpg');
+  font-family: 'Roboto Mono', monospace;
+}
+container.grand-dad {
+  text-align: center;
+  position: absolute;
+  opacity: 0.5;
+  width: 15%;
+  height: 20%;
+  left: 50%;
+  top: 50%;
+  margin-left: -7.5%;
+  margin-top: -10%;
+}
+
+div.buttons {
+position: relative;
+opacity: 1.0;
+top: 500px;
+left: 733px;
+
+
+}
+
+div.text1 {
+  font-size: 20px;
+  color: white;
+
+}
+div.number{
+  position: relative;
+  top: 100px;
+  color: white;
+  font-size: 30px;
+
+}
+#lowerBtn{
+  border-radius: 15px;
+
+}
+#lowerBtn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+#addCount{
+  border-radius: 15px;
+}
+#addCount:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
